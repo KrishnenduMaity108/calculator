@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body class="body">
+    <p class="result">Calculator</p>
+
+    <div class="row">
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('1');
+        ">1</button>
+      </div>
+
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('2');
+        ">2</button>
+      </div>
+
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('3');
+        ">3</button>
+      </div>
+
+      <div>
+        <button class="symbols" onclick="
+        calculation = calculate('+');
+        ">+</button>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('4');
+        ">4</button>
+      </div>
+
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('5');
+        ">5</button>
+      </div>
+
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('6');
+        ">6</button>
+      </div>
+
+      <div>
+        <button class="symbols" onclick="
+        calculation = calculate('-');
+        ">-</button>
+      </div>
+    
+    </div>
+
+    <div class="row">
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('7');
+        ">7</button>
+      </div>
+
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('8');
+        ">8</button>
+      </div>
+
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('9');
+        ">9</button>
+      </div>
+
+      <div>
+        <button class="symbols" onclick="
+        calculation = calculate('*');
+        ">*</button>
+      </div>
+    
+    </div>
+
+    <div class="row">
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('0');
+        ">0</button>
+      </div>
+
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('.');
+        ">.</button>
+      </div>
+
+      <div>
+        <button class="numbers" onclick="
+        calculation = calculate('=');
+        ">=</button>
+      </div>
+
+      <div>
+        <button class="symbols" onclick="
+        calculation = calculate('/');
+        ">/</button>
+      </div>
+    
+    </div>
+    
+    <p><button class="clear" onclick="
+    calculation=calculate(' ');
+    ">Clear</button></p>
+
+    <p class="show-calculation"></p>
+
+    <script src="calculator.js"></script>
+
+  </body>
+</html>

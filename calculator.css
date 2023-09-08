@@ -1,0 +1,36 @@
+.body{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row{
+  display: flex;
+}
+.numbers,.symbols,.clear
+{
+  width: 60px; 
+  font-size: 30px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.clear{
+  width: 100px; 
+  padding: 15px;
+  border-radius: 30px;
+}
+.symbols{
+   background-color: rgb(255, 136, 0);
+}
+.result,.show-calculation
+{
+  font-size: 30px;
+}
+.show-calculation{
+  color: rgb(106, 185, 185);
+  font-size: 50px;
+  margin: 20px;
+}
